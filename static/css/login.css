@@ -1,0 +1,68 @@
+h2{
+    color: rgba(10, 10, 10, 0.719);
+}
+.section1{
+    border: 3px solid black;
+    height: 50vh;
+    width: 40%;
+    margin-left: 250px;
+    background-image: linear-gradient(to bottom, #37aa1e, #00a078, #008edd, #0071ff, #2e12eb);
+    border-radius: 10px;
+}
+/* button{
+    color: chartreuse;
+} */
+input[type=text]{
+    border: 1px solid rgba(255, 255, 255, 0.535) ;
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgba(216, 191, 216, 0.624);
+    height: 5vh;
+}
+input[type=password]{
+    border: 1px solid rgba(255, 255, 255, 0.535) ;
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgba(216, 191, 216, 0.624);
+    height: 5vh;
+}
+.section1 button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+   
